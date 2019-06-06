@@ -4,13 +4,20 @@
 <head>
 <title>Etch-A-Sketch</title>
 <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <button id="reset" type="button">Reset Canvas</button>
-  
+  <header>
+    <h1>Etch-A-Sketch</h1>
+    <button id="clear" type="button">Clear Canvas</button>
+    <button id="reset" type="button">Reset Canvas</button>
+    <button id="resetRandColor" type="button">Reset with Random Color</button>
+  </header>
+  <div id="wrapper">
   <div id="container"></div>
+  </div>
 <script src="etchasketch.js"></script>
 
 </body>

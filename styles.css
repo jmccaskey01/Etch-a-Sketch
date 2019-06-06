@@ -48,8 +48,12 @@ table {
 	border-spacing: 0;
 }
 /* END OF STYLE RESET */
+body {
+	background-color: lightblue;
+	font-family: 'Lato', sans-serif;
 
-/* CONTAINER */
+}
+/* MAIN CONTAINER */
 #container {
 	border: 15px solid red;
 	height: 800px;
@@ -57,19 +61,40 @@ table {
 	border-radius: 10px;
 	background: grey;
 	line-height: 0;
+	display: inline-block;
+}
+#wrapper {
+	text-align: center;
 }
 /* INNER BOXES */
 
 .etchSquare {
 	display: inline-block;
   background-color: grey;
-
 	box-sizing: border-box;
 }
 .etchSquareDrawn {
 	display: inline-block;
-
-
 	box-sizing: border-box;
 	background-color: black;
+}
+/* BUTTONS */
+header {
+	background: lightsteelblue;
+	min-width: 960px;
+	height: 100px;
+	display: block;
+	text-align: center;
+
+}
+h1 {
+	font-style: bold;
+	font-size: 40px;
+}
+button {
+	margin: 10px;
+  display: inline-block;
+  background-color: slategrey;
+	border: none;
+	border-radius: 5px;
 }
