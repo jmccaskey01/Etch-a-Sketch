@@ -52,8 +52,8 @@ table {
 /* CONTAINER */
 #container {
 	border: 15px solid red;
-	height: 960px;
-	width: 960px;
+	height: 800px;
+	width: 800px;
 	border-radius: 10px;
 	background: grey;
 	line-height: 0;
